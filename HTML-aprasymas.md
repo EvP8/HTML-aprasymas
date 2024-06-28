@@ -8,3 +8,16 @@ HTML uses "markup" to annotate text, images, and other content for display in a 
 
 An HTML element is set off from other text in a document by "tags", which consist of the element name surrounded by <kbd>"<"</kbd> and <kbd>">"</kbd>. The name of an element inside a tag is case-insensitive. That is, it can be written in uppercase, lowercase, or a mixture. For example, the
 `<title>` tag can be written as `<Title>`, `<TITLE>`, or in any other way. However, the convention and recommended practice is to write tags in lowercase. 
+
+The articles below can help you learn more about HTML.
+
+# Key resources
+
+#### HTML Introduction
+   If you're new to web development, be sure to read our [HTML Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics) article to learn what HTML is and how to use it.
+
+#### HTML Tutorials
+   For articles about how to use HTML, as well as tutorials and complete examples, check out our [HTML Learning Area](https://developer.mozilla.org/en-US/docs/Learn/HTML).
+
+#### HTML Reference
+In our extensive [HTML reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference) section, you'll find the details about every element and attribute in HTML. 
