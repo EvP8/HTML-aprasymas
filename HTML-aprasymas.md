@@ -72,3 +72,10 @@ The [`<audio>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio)
 #### [HTML content categories](https://developer.mozilla.org/en-US/docs/Web/HTML/Content_categories)
 HTML is comprised of several kinds of content, each of which is allowed to be used in certain contexts and is disallowed in others. Similarly, each context has a set of other content categories it can contain and elements that can or can't be used in them. This is a guide to these categories.
 
+#### [Quirks mode and standards mode](https://developer.mozilla.org/en-US/docs/Web/HTML/Quirks_Mode_and_Standards_Mode)
+Historical information on quirks mode and standards mode.
+
+# Related topics
+
+#### [Applying color to HTML elements using CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors/Applying_color)
+This article covers most of the ways you use CSS to add color to HTML content, listing what parts of HTML documents can be colored and what CSS properties to use when doing so.
