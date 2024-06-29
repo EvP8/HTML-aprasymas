@@ -20,4 +20,55 @@ The articles below can help you learn more about HTML.
    For articles about how to use HTML, as well as tutorials and complete examples, check out our [HTML Learning Area](https://developer.mozilla.org/en-US/docs/Learn/HTML).
 
 #### HTML Reference
-In our extensive [HTML reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference) section, you'll find the details about every element and attribute in HTML. 
+In our extensive [HTML reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference) section, you'll find the details about every element and attribute in HTML.
+
+# Beginner's tutorials
+
+Our [HTML Learning Area](https://developer.mozilla.org/en-US/docs/Learn/HTML) features multiple modules that teach HTML from the ground up — no previous knowledge required. 
+
+#### [Introduction to HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)
+   This module sets the stage, getting you used to important concepts and syntax such as looking at applying HTML to text, how to create hyperlinks, and how to use HTML to structure a web page.
+
+  #### [Multimedia and embedding](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding)
+  This module explores how to use HTML to include multimedia in your web pages, including the different ways that images can be included, and how to embed video, audio, and even entire other webpages.
+
+  #### [HTML tables](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables)
+  Representing tabular data on a webpage in an understandable, accessible way can be a challenge. This module covers basic table markup, along with more complex features such as implementing captions and summaries.
+
+  #### [Use HTML to solve common problems](https://developer.mozilla.org/en-US/docs/Learn/Forms)
+  Provides links to sections of content explaining how to use HTML to solve very common problems when creating a web page: dealing with titles, adding images or videos, emphasizing content, creating a basic form, etc.
+
+  # Advanced topics
+
+  #### [CORS enabled image](https://developer.mozilla.org/en-US/docs/Web/HTML/CORS_enabled_image)
+
+  The [`crossoring`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#crossorigin) attribute, in combination with an appropriate [CORS](https://developer.mozilla.org/en-US/docs/Glossary/CORS) header, allows images defined by the [`<img>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img) or [`<video>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video), have a `crossorigin` attribute (`crossOrining` property), which lets you configure the CORS requests for the element's fetched data.
+
+#### [Preloading content with rel="preload"](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel/preload)
+The `preload` value of the [`<link>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link) element's [`<rel>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link#rel) attribute allows you to write declarative fetch requests in your HTML [`<head>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head), specifying resources that your pages will need very soon after loading, which you therefore want to start preloading early in the lifecycle of a page load, before the browser's main rendering machinery kicks in. This ensures that they are made available earlier and are less likely to block the page's first render, leading to performance improvements. This article provides a basic guide to how preload works.
+
+# Reference
+
+#### [HTML reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference) 
+**HTML** consists of **elements**, each of which may be modified by some number of **attributes**. HTML documents are connected to each other with **links**.
+
+#### [HTML element reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+
+Browse a list of all [HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML) [elements](https://developer.mozilla.org/en-US/docs/Glossary/Element).
+
+#### [HTML attribute reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes)
+Elements in HTML have **attributes**. These are additional values that configure the elements or adjust their behavior in various ways.
+
+#### [Global attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes)
+Global attributes may be specified on all  [HTML elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element), even those not specified in the standard. This means that any non-standard elements must still permit these attributes, even though those elements make the document HTML5-noncompliant.
+
+#### [Inline-level elements](https://developer.mozilla.org/en-US/docs/Glossary/Inline-level_content) and [block-level elements](https://developer.mozilla.org/en-US/docs/Glossary/Block-level_content)
+HTML elements are usually "inline-level" or "block-level" elements. An inline-level element occupies only the space bounded by the tags that define it. A block-level element occupies the entire space of its parent element (container), thereby creating a "block box".
+
+#### [Guide to media types and formats on the web](https://developer.mozilla.org/en-US/docs/Web/Media/Formats)
+
+The [`<audio>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio) and [`<video>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video) elements allow you to play audio and video media natively within your content without the need for external software support.
+
+#### [HTML content categories](https://developer.mozilla.org/en-US/docs/Web/HTML/Content_categories)
+HTML is comprised of several kinds of content, each of which is allowed to be used in certain contexts and is disallowed in others. Similarly, each context has a set of other content categories it can contain and elements that can or can't be used in them. This is a guide to these categories.
+
